@@ -73,9 +73,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../production/")
 		)
 	)
 	(net 0 "")
@@ -113,7 +113,7 @@
 		(property "Reference" "SW1"
 			(at 2.8 -4.7 0)
 			(layer "F.SilkS")
-			(uuid "0a489bcb-f6b6-4a3e-8f95-697c1c880f83")
+			(uuid "ced749d7-f3b3-4a0a-8ae1-5d5fa65e434b")
 			(effects
 				(font
 					(size 1 1)
@@ -124,7 +124,7 @@
 		(property "Value" "RotaryEncoder_Switch"
 			(at 7.5 10.4 0)
 			(layer "F.Fab")
-			(uuid "297fb638-3f4b-4adc-9752-a43d200ec7e8")
+			(uuid "a491c3be-2f12-47f8-ae51-d7a8a2dc3e27")
 			(effects
 				(font
 					(size 1 1)
@@ -137,7 +137,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2f234e5-3e73-42c5-a272-f2945b80bba5")
+			(uuid "5425566f-a5ed-4e0a-9d09-6942bfe8695c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -150,7 +150,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "427535ea-02a5-4a42-8ef0-c1780b812935")
+			(uuid "9ff3e415-2e6e-4346-94cd-3469885d6f95")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,7 +161,7 @@
 		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/b0140316-5322-42a8-a11f-5d02594cf877")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.3 -1.6)
@@ -529,7 +529,7 @@
 		(property "Reference" "SW10"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "a7de5ee8-4085-4810-93a7-411d82c9d280")
+			(uuid "96e95f04-bf12-4f71-9a68-76be057d396d")
 			(effects
 				(font
 					(size 1 1)
@@ -540,7 +540,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "9acc8d4c-2b60-47e1-8f09-2032838bb3ad")
+			(uuid "1a6b8ef5-89c7-4eb7-8156-c0c374b3a6a4")
 			(effects
 				(font
 					(size 1 1)
@@ -553,7 +553,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d8791d23-7da4-4c7d-891e-11f1f83dd7a0")
+			(uuid "c815270a-4849-4e36-8953-58cc039e96a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -566,7 +566,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a3843077-576d-4a65-9357-f17d21ea54c8")
+			(uuid "d7abde2f-ad3c-4a46-84da-8d8ed774c3ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -576,7 +576,7 @@
 		)
 		(path "/fc8a3eb9-c067-4c7e-aefa-0d17d13ef734")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -814,7 +814,7 @@
 		(property "Reference" "SW12"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "eba41b51-0ca0-4428-b315-578143f842cb")
+			(uuid "8e0bff45-3bb6-47f1-8627-fb6a86261ec3")
 			(effects
 				(font
 					(size 1 1)
@@ -825,7 +825,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "aee0b607-ed21-4de6-b9a7-76d3ec8bf38b")
+			(uuid "3cd17373-1cf6-4714-840f-58e96831ed64")
 			(effects
 				(font
 					(size 1 1)
@@ -838,7 +838,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da57c5e1-4d28-452c-b160-923cea22ea94")
+			(uuid "64c228aa-67f8-4a03-99d7-028f96c6e2a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +851,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5ab0fa7-8e1d-449c-a3a7-fd6d6d5cb2ad")
+			(uuid "00ca793d-ea23-4f92-a6c0-c95038bd4a10")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +861,7 @@
 		)
 		(path "/0ff1a195-d8c1-41fe-ba37-2cfd51a6d1d3")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -1097,7 +1097,7 @@
 		(property "Reference" "J1"
 			(at 1.9 5.91 90)
 			(layer "F.SilkS")
-			(uuid "7e6c2f1f-b4ef-41df-b40b-aa1fb38fbeb8")
+			(uuid "e1ea0fcc-2aa7-42a4-884d-1a3bff38c9b2")
 			(effects
 				(font
 					(size 1 1)
@@ -1108,7 +1108,7 @@
 		(property "Value" "Conn_01x04_Pin"
 			(at 18.5 14 0)
 			(layer "F.Fab")
-			(uuid "e0515069-23a4-4d14-aa4b-9c396fda7eeb")
+			(uuid "3bceadc4-3caa-4883-ae5f-7a54e67e399d")
 			(effects
 				(font
 					(size 1 1)
@@ -1120,7 +1120,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "96774520-7758-4110-bfd2-6d3b7e8fee59")
+			(uuid "05597550-e105-4690-9b22-0b357e9e4b31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1132,7 +1132,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "779e2eec-5344-4b11-8f31-c09ea467c380")
+			(uuid "d91c6d0f-f838-4002-b954-b8b7df48a8b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,7 +1143,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6659273e-74e8-4962-a701-1404aa8fcfb4")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0 0)
@@ -1355,7 +1355,7 @@
 		(property "Reference" "SW5"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "1ad59925-35b7-4376-9c11-c81da55fbae0")
+			(uuid "f465053c-519b-4585-be4e-2c904e422d3b")
 			(effects
 				(font
 					(size 1 1)
@@ -1366,7 +1366,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "90a92799-b5d2-4611-bdcc-79f29501b5cd")
+			(uuid "1a35c13d-8288-4aa2-8214-771e749a202a")
 			(effects
 				(font
 					(size 1 1)
@@ -1379,7 +1379,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a89981b7-75f5-418c-a572-c4376f4d77d0")
+			(uuid "92401193-2a66-4f3e-8a65-87bd53d20499")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1392,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20ade0f7-5f4f-4fdb-a92e-40d9a89e0b35")
+			(uuid "2c09e05a-6e83-4991-8880-adca6e78ff90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1402,7 @@
 		)
 		(path "/4faee02f-2001-4428-9faf-d92e9a5ef2a3")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -1640,7 +1640,7 @@
 		(property "Reference" "SW3"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "71178c98-9263-41bc-b4bd-3b794dedf101")
+			(uuid "ebceab08-b12f-47e5-a8af-a4a82ab89fee")
 			(effects
 				(font
 					(size 1 1)
@@ -1651,7 +1651,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "04425b39-791d-4c8f-ac57-6ea472952f9a")
+			(uuid "7b4d6fc3-3ac2-4719-a263-cf53f8164293")
 			(effects
 				(font
 					(size 1 1)
@@ -1664,7 +1664,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0378af75-826c-4fd2-b849-9cdafd63dca3")
+			(uuid "df6aa808-4209-49d3-a8ed-01a72a40f314")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1677,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2af6ad26-a433-42da-a40e-069a01746947")
+			(uuid "5ef42986-b562-4052-9b87-b486153513cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,7 +1687,7 @@
 		)
 		(path "/048dbb29-8d81-4c8e-a473-eb165028a004")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -1925,7 +1925,7 @@
 		(property "Reference" "SW7"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "c48e019f-5aac-4d77-9fa2-2fc2cb593d7e")
+			(uuid "6a3a1bd5-32f5-421e-9ad4-85ead99956dd")
 			(effects
 				(font
 					(size 1 1)
@@ -1936,7 +1936,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "022307f9-f839-4ce9-923b-69c2e33a52cf")
+			(uuid "e90d2356-112f-472f-8853-55bd1e398528")
 			(effects
 				(font
 					(size 1 1)
@@ -1949,7 +1949,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1a09de89-056c-4598-8678-51d23765b021")
+			(uuid "adea98f0-139b-482b-9a15-dca2b009084e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,7 +1962,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a20f3565-0ee5-4238-9dbb-0b11a401c86b")
+			(uuid "b66b7963-8327-41dd-8454-da3fcb84157c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +1972,7 @@
 		)
 		(path "/e6973830-4f6a-4f34-b924-a22d282d2330")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -2210,7 +2210,7 @@
 		(property "Reference" "SW11"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "a6f5e8c4-5494-443c-9092-99d3b40de00b")
+			(uuid "5e95fe8b-68ba-408b-9fcc-8543305a8fd8")
 			(effects
 				(font
 					(size 1 1)
@@ -2221,7 +2221,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "70b0260e-7e9e-4747-9f22-d0351b17216f")
+			(uuid "86635c06-abd1-4fb7-a65e-44a722470440")
 			(effects
 				(font
 					(size 1 1)
@@ -2234,7 +2234,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e33bc3b-b60b-4464-965d-154bf358e0a1")
+			(uuid "2345537b-0fe4-4843-9dd8-e738a8ce8333")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2247,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf551e6b-abd5-4392-b006-370990130d63")
+			(uuid "4520c8ea-6af2-4fd9-beff-c562b137dc22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2257,7 @@
 		)
 		(path "/0f65c2c9-979e-44d0-89b6-8358c7db8ef4")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -2495,7 +2495,7 @@
 		(property "Reference" "SW2"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "c09297fa-682b-4240-8772-d13fd360bc1c")
+			(uuid "9295bd82-671a-44fc-9d37-aa734d78a21e")
 			(effects
 				(font
 					(size 1 1)
@@ -2506,7 +2506,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "9a10fbe3-caae-4b77-8a80-1fcfc3f0b21b")
+			(uuid "b3cfd0f1-eaf6-4356-b7e8-8b1ba0b052e5")
 			(effects
 				(font
 					(size 1 1)
@@ -2519,7 +2519,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "df60fb04-c01f-4945-be12-21964c20ca3b")
+			(uuid "6b8cb6f8-3c2e-4bcf-b9c3-04eb3f186437")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +2532,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30e3db24-4697-4a1f-9c43-28ea5d6141cf")
+			(uuid "c2e2df7a-faf0-469f-8ced-f87d0168e90b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2542,7 @@
 		)
 		(path "/6d7da658-2fc0-4580-8185-33c32a1883bc")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -2780,7 +2780,7 @@
 		(property "Reference" "SW9"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "b3a63655-0c3a-4e25-9ea1-fcc4479388b9")
+			(uuid "06928128-f4b6-4456-a262-3b212b15ace5")
 			(effects
 				(font
 					(size 1 1)
@@ -2791,7 +2791,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "b3e1b5bb-de17-4a01-a5e7-6205ece64826")
+			(uuid "adf7610d-6657-4ce4-bab7-5e198c49ab56")
 			(effects
 				(font
 					(size 1 1)
@@ -2804,7 +2804,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "637b771f-f600-4988-a171-de4657308aa0")
+			(uuid "c7627181-6f23-4c20-95fd-6fcd6371cf45")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +2817,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07fb0832-afc5-4754-bcdb-212c2680aadc")
+			(uuid "23ae9506-5434-414a-9a95-e3b8c7aa3a5f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,7 +2827,7 @@
 		)
 		(path "/8055b1dd-4d76-45d4-badf-382e0752a5cd")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -3065,7 +3065,7 @@
 		(property "Reference" "SW4"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "e091ed0c-1f5b-49a1-b6d1-cfb3671d0b93")
+			(uuid "6c47ca84-2197-4e43-9167-fbecc86a136b")
 			(effects
 				(font
 					(size 1 1)
@@ -3076,7 +3076,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "656c786b-e83a-4689-b4fb-9f14620b1219")
+			(uuid "1bbc0559-6d13-4b94-9c7e-65a1ba9e6f3c")
 			(effects
 				(font
 					(size 1 1)
@@ -3089,7 +3089,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31c4155f-33ed-43bf-b8ed-e9137130e41d")
+			(uuid "c447f7c4-b233-4374-83c7-95f82a4ebacf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,7 +3102,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d3da7de-6dc7-4210-966b-358f4d23a8e7")
+			(uuid "5394359a-cc15-4019-8e59-6b7245f73de0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +3112,7 @@
 		)
 		(path "/7260a07f-1fc8-4f79-92be-fb36470c433c")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -3398,7 +3398,7 @@
 		)
 		(path "/df628455-be60-4b7f-a3f5-32cb4d480ac3")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -8.89 8.509)
@@ -3979,7 +3979,7 @@
 		(property "Reference" "SW6"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "be299ddd-35e6-4bc1-ad1e-712fd278a025")
+			(uuid "08a669c6-8fab-4b2f-9e8c-503b1af4e560")
 			(effects
 				(font
 					(size 1 1)
@@ -3990,7 +3990,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "b57a0612-230d-4ddb-b7b5-6a01c545a228")
+			(uuid "7c48d6dd-5900-482b-bbc6-9005f7cca675")
 			(effects
 				(font
 					(size 1 1)
@@ -4003,7 +4003,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5813dbbd-3d90-4893-94fc-7a1629d24c6c")
+			(uuid "da1dbfa5-81da-4dc6-b2d3-aeafbbd2f27e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,7 +4016,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c37806d9-65db-492f-86cf-6eb300d0839f")
+			(uuid "2093fcd2-5c58-4a3d-94ee-994b5061efd5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,7 +4026,7 @@
 		)
 		(path "/4f358133-cbac-4e64-be7b-dcd3b31dc350")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -4264,7 +4264,7 @@
 		(property "Reference" "SW8"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "c780b616-5bcf-4a3f-83b4-9e59364e9e1b")
+			(uuid "a36a1f7e-42e9-4a1a-bc3e-bd163ec14a08")
 			(effects
 				(font
 					(size 1 1)
@@ -4275,7 +4275,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "fed6e31e-553c-48fe-93c6-1fffd3020029")
+			(uuid "11cda69b-846b-43e1-8735-66ba6a726a86")
 			(effects
 				(font
 					(size 1 1)
@@ -4288,7 +4288,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6944a504-c01a-4a0b-95bb-c417428c913d")
+			(uuid "393228b5-effb-4535-a490-fcea8928f84a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4301,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "351bae34-42ff-44ff-a098-5d81b4729299")
+			(uuid "f41b4d8c-bb92-46b6-8c3b-ba72643e243d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +4311,7 @@
 		)
 		(path "/b9e1c0f5-ca75-4251-b49d-1aa697ff703a")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -4627,7 +4627,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/e5c63cab-e5f5-412a-aca1-735eb047b718")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -4921,7 +4921,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/cd3c509b-f8ee-40cf-be5a-df08407d9cc4")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -5215,7 +5215,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/9d0ce9ad-1f46-4ef3-aa0c-a01179d75b98")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -5509,7 +5509,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/cbb30431-1b9c-4b0f-b7f5-842685c855f5")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -5803,7 +5803,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/eb4f431e-978d-4772-a393-f6919fcd32f9")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -6097,7 +6097,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/c524641e-7a72-4936-a8a2-809096fe3249")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -6391,7 +6391,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/0d630f97-e5fb-4e9f-ae54-703361489d70")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -6685,7 +6685,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/2fe5671e-6a1d-40e6-98e1-68d8aca7e471")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -6979,7 +6979,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/328ebf64-d0ec-4991-aae7-974962639639")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -7273,7 +7273,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/822591b1-d374-40ad-aa03-206f2ec64e15")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -7567,7 +7567,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/33e849f9-1f04-4c10-a995-becc66c88c05")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -7861,7 +7861,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/ea089b1d-80be-472e-baee-0ef5bd463767")
 		(sheetname "/")
-		(sheetfile "test.kicad_sch")
+		(sheetfile "flamepad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -9320,22 +9320,6 @@
 		(net 20)
 		(uuid "fe94cc82-67c9-454c-b11c-4f1c3395d303")
 	)
-	(via
-		(at 109.05 79)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 20)
-		(uuid "02bee9cf-fe50-45c7-8028-6923aafeb589")
-	)
-	(via
-		(at 109.05 79)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 20)
-		(uuid "8efbbf10-e7a8-48a6-9869-63f49705d0a1")
-	)
 	(segment
 		(start 107.618001 82.568001)
 		(end 109.05 84)
@@ -9423,38 +9407,6 @@
 		(layer "F.Cu")
 		(net 22)
 		(uuid "fb2417e5-e80a-4ff7-af66-6104397dc86d")
-	)
-	(segment
-		(start 106.7 148.2)
-		(end 125.8 148.2)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 22)
-		(uuid "0e9925cf-45a2-44fa-bca3-315dff42e50a")
-	)
-	(segment
-		(start 125.9 148.1)
-		(end 125.825 148.025)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 22)
-		(uuid "4bed63ca-0135-4826-8fd7-f8ae94571ce2")
-	)
-	(segment
-		(start 125.8 148.2)
-		(end 125.9 148.1)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 22)
-		(uuid "88b2bb87-7707-40f9-aabd-e603677c9822")
-	)
-	(segment
-		(start 125.825 148.025)
-		(end 125.825 142.5475)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 22)
-		(uuid "c6f147e3-a6b4-469f-9a46-3d9e60bcb43d")
 	)
 	(segment
 		(start 168.6875 77.69)
