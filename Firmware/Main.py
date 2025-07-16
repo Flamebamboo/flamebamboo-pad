@@ -1,23 +1,22 @@
 import board
 from kmk.kmk_keyboard import KMKKeyboard
-from kmk.scanners.matrix import MatrixScanner
 from kmk.keys import KC
 from kmk.modules.macros import Press, Release, Tap, Macros
 from kmk.modules.encoder import EncoderHandler
+from kmk.scanners import DiodeOrientation
 
 
-
-COL0 = board.GP26;
-COL1 = board.GP27;
-COL2 = board.GP28;
-ROW0 = board.GP4;
-ROW1 = board.GP2;
-ROW2 = board.GP1;
-ROW3 = board.GP29;
-SDA = board.GP6;
-SCL = board.GP7;
-SW1A = board.GP3;
-SW1B = board.GP0;
+COL0 = board.D0;
+COL1 = board.D1;
+COL2 = board.D2;
+ROW0 = board.D9;
+ROW1 = board.D8;
+ROW2 = board.D7;
+ROW3 = board.D3;
+SDA = board.D4;
+SCL = board.D5;
+SW1A = board.D10;
+SW1B = board.D6;
 
 # Initialize KMK keyboard instance
 keyboard = KMKKeyboard()
@@ -38,11 +37,8 @@ encoder_handler.map = [((KC.VOLU, KC.VOLD),)]
 # Define row and column pins
 ROW_PINS = [ROW0, ROW1, ROW2, ROW3]
 COL_PINS = [COL0, COL1, COL2]
+keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
-keyboard.matrix = MatrixScanner(
-    columns=COL_PINS,
-    rows=ROW_PINS,
-)
 
 # Keymap for 11 keys (3x4 matrix with one missing key)
 # I will customise later for my needs probably video editing shortcuts

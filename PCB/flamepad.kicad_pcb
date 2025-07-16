@@ -3979,7 +3979,7 @@
 		(property "Reference" "SW6"
 			(at -2.54 -2.794 0)
 			(layer "F.SilkS")
-			(uuid "08a669c6-8fab-4b2f-9e8c-503b1af4e560")
+			(uuid "bef78c65-1568-4ac4-9572-6673da612b0b")
 			(effects
 				(font
 					(size 1 1)
@@ -3990,7 +3990,7 @@
 		(property "Value" "SW_Push"
 			(at -2.54 12.954 0)
 			(layer "F.Fab")
-			(uuid "7c48d6dd-5900-482b-bbc6-9005f7cca675")
+			(uuid "6dd8885b-d946-4658-898a-363d30df1296")
 			(effects
 				(font
 					(size 1 1)
@@ -4003,7 +4003,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da1dbfa5-81da-4dc6-b2d3-aeafbbd2f27e")
+			(uuid "e451a625-a77d-481b-9f55-d893a9aa8498")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,7 +4016,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2093fcd2-5c58-4a3d-94ee-994b5061efd5")
+			(uuid "73fd75ef-102d-4550-afe0-4bd5772af1b4")
 			(effects
 				(font
 					(size 1.27 1.27)
