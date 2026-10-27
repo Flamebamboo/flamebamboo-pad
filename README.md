@@ -1,5 +1,19 @@
 # Flamebamboo Pad
 
+## Flamebamboo Studio web app
+
+The macropad editor is in [`web/`](web/README.md). It includes an interactive device layout, custom key and encoder bindings, local profiles, and CircuitPython firmware export.
+
+With Node.js 24 installed:
+
+```bash
+cd web
+npm ci
+npm run dev
+```
+
+Open the local address printed by Vite. Profiles are saved in your browser; use **Export to device** to download `code.py` and copy it to your existing CircuitPython/KMK installation. This version does not perform live USB rebinding.
+
 ### Features
 
 This is a 11 key macropad with a rotary encoder, an OLED Display that uses KMK firmware (for now)
